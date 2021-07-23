@@ -54,7 +54,7 @@ public class ExpenseManagerSystemTest {
 		
         if(result.getStatus() == ITestResult.FAILURE) {
 			//You need to enter your JIRA Username and Password in below line
-        	BasicCredentials cred = new BasicCredentials("gaurav.ponds", "Gaurav.123");
+        	BasicCredentials cred = new BasicCredentials("xxgaurav.ponds", "xxGaurav.123");
 			
 			//You need to enter your JIRA machine IP address with port 8080 in below line
 //         	JiraClient jira = new JiraClient("http://3.19.221.108:8080", cred);
